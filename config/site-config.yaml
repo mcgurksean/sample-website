@@ -1,0 +1,5 @@
+siteName: MyOrg Website
+contactEmail: mcgurksean@hotmail.com
+features:
+  - auto-sync
+  - kubernetes-deployed
