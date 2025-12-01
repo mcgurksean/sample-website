@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            line-height: 1.6;
+        }
+        header {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #333;
+        }
+        nav a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <h1>About Our Sample Application</h1>
+</header>
+
+<p>
+    This is a simple static website used to demonstrate Kubernetes features such
+    as git-sync for real-time content updates and Reloader for automated pod restarts.
+</p>
+
+<p>
+    Any changes committed to the GitHub repository are automatically synchronized
+    to the running pods, allowing updates to appear without manual redeployments.
+</p>
+
+<h2>Why This Demo Exists</h2>
+<ul>
+    <li>To showcase sidecar-based Git synchronization</li>
+    <li>To demonstrate self-updating static websites in Kubernetes</li>
+    <li>To show how Reloader can restart pods when content changes</li>
+    <li>To provide a lightweight test environment for cloud-native patterns</li>
+</ul>
+
+<footer>
+    © 2025 Sample Application — Powered by nginx + git-sync
+</footer>
+
+</body>
+</html>
